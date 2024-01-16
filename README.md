@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+## Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React app is a conversion of a Figma design into a fully functional web application. Tailwind CSS was employed for styling to ensure responsiveness and an efficient development process.
 
-## Available Scripts
+## Components
 
-In the project directory, you can run:
+1. `Navbar`
 
-### `npm start`
+- Displays a navigation bar at the top of the page.
+- Includes a logo and navigation links.
+- Features a login button.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. `BreadCrumb`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Represents the breadcrumb navigation for the current page.
+- Displays a sequence of navigation links with associated icons.
 
-### `npm test`
+3. `Heading`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Renders a heading for the main content section.
+- Provides a clear title for the current section.
 
-### `npm run build`
+4. `Title`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Presents a title bar with options for different study modes.
+- Includes stylized text for study categories.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. `Content`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Central component for displaying content based on the Figma design.
+- Features a gradient-filled box with icons, mathematical expressions, and navigation controls.
 
-### `npm run eject`
+6. `FAQ`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Represents a Frequently Asked Questions section.
+- Utilizes the Dropdown component for each FAQ entry.
+- Integrates the FaAngleDown icon from the react-icons/fa6 library.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+7. `Dropdown`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- A reusable component for creating dropdown-like elements.
+- Displays a question or prompt along with a downward-pointing arrow for expansion.
+- Customizable with different text content
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Additional Libraries
 
-## Learn More
+- `react-icons/fa6` - Utilized for incorporating the FaAngleDown icon in the Dropdown component.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Install dependencies: npm install
+2. Run the app: npm start
