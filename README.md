@@ -42,6 +42,9 @@ This React app is a conversion of a Figma design into a fully functional web app
 - Displays a question or prompt along with a downward-pointing arrow for expansion.
 - Customizable with different text content
 
+![image](https://github.com/SwayamBadhe/Hyggex-asi/assets/123235851/d086b123-de4e-4d81-b539-7926d81f31cd)
+
+
 ## Additional Libraries
 
 - `react-icons/fa6` - Utilized for incorporating the FaAngleDown icon in the Dropdown component.
