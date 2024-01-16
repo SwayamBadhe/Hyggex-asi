@@ -12,7 +12,7 @@ const Content = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center mt-14">
-        <div className="bg-gradient-to-r from-blue-400 to-blue-800 rounded-3xl w-[700px] h-[390px] text-white relative">
+        <div className="bg-gradient-to-bl from-blue-900 via-blue-900 to-blue-600 rounded-3xl w-[700px] h-[390px] text-white relative">
           <img src={bulb} alt="" className="absolute top-8 left-8 w-8 h-8" />
           <img
             src={speaker}
